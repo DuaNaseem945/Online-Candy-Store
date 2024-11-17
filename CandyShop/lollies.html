@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    
+	}
+	 header h3 {
+      margin: 0;
+    }
+
+    .cart-icon {
+      font-size: 24px;
+      margin-right: 12px;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .product-box {
+      text-align: center;
+      margin-bottom: 40px;
+      border: 10px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+	.para1 {
+      color: black;
+      font-size: 15px;
+      margin-left: 13px;
+      margin-top: 5px;
+      font-family: Arial;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .description {
+      margin-top: 10px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 8px 16px;
+      margin: 0 8px;
+      cursor: pointer;
+      background-color: grey;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: black;
+    }
+  </style>
+  <title>LOLLIPOP PARADISE</title>
+</head>
+<body>
+  <header>
+    <h1><span class="cart-icon">&#128722;</span>LOLLIPOP PARADISE</h1>
+  </header>
+
+  <section>
+    <div class="product-box">
+      <img src="lolli.pics/lolli1.jpg" alt="Image 1">
+	  
+      <div class="description">
+        <p><h3> CHOC LOLLIPOP </h3></p>
+        <p>Price: Rs:19.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(1)">Add to Cart</button>
+        <button onclick="buyNow(1)">Buy</button>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="lolli.pics/lolli2.jpg" alt="Image 2">
+	  
+      <div class="description">
+        <p><h3>CRYSTAL LOLLIPOP</h3></p>
+        <p>Price: Rs:29.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(2)">Add to Cart</button>
+        <button onclick="buyNow(2)">Buy</button>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="lolli.pics/lolli3.jpg" alt="Image 3">
+	  
+      <div class="description">
+        <p><h3> HOMEMADE LOLLPOP</h3></p>
+        <p>Price: Rs:39.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(3)">Add to Cart</button>
+        <button onclick="buyNow(3)">Buy</button>
+      </div>
+    </div>
+  </section>
+ <section>
+    <div class="product-box">
+      <img src="lolli.pics/lolli4.jpg" alt="Image 1">
+      
+	  <div class="description">
+        <p><h3>MILK LOLLIPOP</h3></p>
+        <p>Price: Rs:19.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(1)">Add to Cart</button>
+        <button onclick="buyNow(1)">Buy</button>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="lolli.pics/lolli5.jpg" alt="Image 2">
+ 
+ <div class="description">
+        <p>
+             <h3> RAINBOW LOLLIPOP</h3></p>
+        <p>Price: Rs:29.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(2)">Add to Cart</button>
+        <button onclick="buyNow(2)">Buy</button>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="lolli.pics/lolli6.jpg" alt="Image 3">
+      <div class="description">
+        <p><h3>   VALENTINE LOLLIPOP</h3></p>
+        <p>Price: Rs:99.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(3)">Add to Cart</button>
+        <button onclick="buyNow(3)">Buy</button>
+      </div>
+    </div>
+  </section>
+   <section>
+    <div class="product-box">
+      <img src="lolli.pics/lolli7.jpg" alt="Image 1">
+
+
+      <div class="description">
+        <p> <h3>SOUR LOLLIPOP</h3></p>
+        <p>Price: Rs:9.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(1)">Add to Cart</button>
+        <button onclick="buyNow(1)">Buy</button>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="lolli.pics/lolli8.jpg" alt="Image 2">
+
+      <div class="description">
+        <p><h3> MELLON LOLLIPOP</h3></p>
+        <p>Price: Rs:29.99</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(2)">Add to Cart</button>
+        <button onclick="buyNow(2)">Buy</button>
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="lolli.pics/lolli9.jpg" alt="Image 3">
+      
+	  <div class="description">
+        <p><h3> BUBBLE GUM LOLLIPOP </h3></p>
+        <p>Price:Rs:40.00</p>
+      </div>
+      <div class="buttons">
+        <button onclick="addToCart(3)">Add to Cart</button>
+        <button onclick="buyNow(3)">Buy</button>
+      </div>
+    </div>
+  </section>
+  <script>
+    function addToCart(productId) {
+      // In a real application, you'd implement logic to add the product to the cart
+      console.log('Added product ' + productId + ' to cart');
+      alert('Product added to cart!');
+    }
+
+    function buyNow(productId) {
+      // In a real application, you'd implement logic to initiate the purchase
+      console.log('Buy now: ' + productId);
+      alert('Purchase initiated for product ' + productId);
+    }
+  </script>
+</body>
+</html>

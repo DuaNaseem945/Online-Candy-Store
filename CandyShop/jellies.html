@@ -1,0 +1,391 @@
+<!DOCTYPE html <html>
+
+<head>
+    <title>jellies</title>
+   
+</head>
+<style>
+    body {
+        margin: 0px;
+    }
+
+    .parentsection {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .jelly {
+        width: 350px;
+        height: 300px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .section {
+        background-color: rgb(234, 227, 234);
+        width: 380px;
+        margin-top: 50px;
+    }
+
+    .heading_card {
+        font-family: arial;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .description_card {
+        font-family: arial;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .price_card {
+        font-family: arial;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .section:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .Add_to_cart {
+        margin-left: 15px;
+        margin-right: 6px;
+        border-radius: 36px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        background-color: rgb(186, 163, 207);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    .buy_button {
+        margin-left: 15px;
+        margin-right: 6px;
+        border-radius: 2px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        background-color: rgb(186, 163, 207);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        border-style: none;
+        color: black;
+    }
+
+    .Add_to_cart,
+    .buy_button {
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .Add_to_cart:hover,
+    .buy_button:hover {
+        background-color: rgb(150, 123, 167);
+        color: white;
+    }
+
+    .banner {
+        height: 85px;
+        font-size: 60px;
+        background-color: rgb(224, 210, 238);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        font-size: 30px;
+        background-color: rgb(224, 210, 238);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px;
+    }
+    
+    .jelly:hover{
+    max-width: 345px;
+    border-radius: 10px;
+    animation: imageAnimation 1s infinite alternate;
+   }
+   @keyframes imageAnimation{
+    from{
+        transform:scale(0.8);
+    }
+    to{
+        transform:scale(1.8);
+    }
+    }
+   
+    
+</style>
+
+<body>
+    <section>
+        <div>
+            <header class="banner">
+                JELLIES
+            </header>
+        </div>
+    </section>
+    <section class="parentsection">
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly 1.webp">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Fruit Jellies
+                </p>
+                <p class="description_card">
+                    Sweet jellies filled with fruity flavours.
+                </p>
+                <p class="price_card">
+                    Price :800Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly2.webp">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Fruity Ring jellies
+                </p>
+                <p class="description_card">
+                    Sugar coated fruity ring jellies
+                </p>
+                <p class="price_card">
+                    Price:700Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly3.webp">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Jelly Belly
+                </p>
+                <p class="description_card">
+                    Jelly beans filled with multi flavours.
+                </p>
+                <p class="price_card">
+                    Price:800Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+
+
+        </section>
+    </section>
+    <section class="parentsection">
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly4.JPG">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Cranberry-fruit jelly
+                </p>
+                <p class="description_card">
+                    These cranberry jellies are ideal for holiday gifting.
+                </p>
+                <p class="price_card">
+                    Price:900Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly5.jpg">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Rainbow Jellies
+                </p>
+                <p class="description_card">
+                    Sweet,Soft Rainbow jellies flavours of lime and orange.
+                </p>
+                <p class="price_card">
+                    Price:850Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly 6.jpg">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Fizzy Jellies
+                </p>
+                <p class="description_card">
+                    This jelly is the ideal treat for kids and great for special occasion.
+                </p>
+                <p class="price_card">
+                    Price:750Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+    </section>
+    <section class="parentsection">
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly7.jpg">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Cherry Jellies
+                </p>
+                <p class="description_card">
+                    Cherry jellies are perfect for the holidays.
+                </p>
+                <p class="price_card">
+                    Price:600Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly8.jpg">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Cake Jellies
+                </p>
+                <p class="description_card">
+                    These are best for celebrations,filled with flavours.
+                </p>
+                <p class="price_card">
+                    Price:900Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+        <section class="section">
+            <div>
+                <img class="jelly" src="jelly.pics/jelly9.jpg">
+            </div>
+            <div>
+                <p class="heading_card">
+                    Jelly Candy
+                </p>
+                <p class="description_card">
+                    Jelly candy filled with fruits and multi flavours.
+                </p>
+                <p class="price_card">
+                    Price:900Rs
+                </p>
+            </div>
+            <div>
+                <button class="Add_to_cart">
+                    ADD TO CART
+                </button>
+                <button class="buy_button">
+                    BUY NOW
+                </button>
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <div>
+            <footer class="footer">
+                @2023 sugar nest
+            </footer>
+        </div>
+    </section>
+   
+</body>
+
+</html>
